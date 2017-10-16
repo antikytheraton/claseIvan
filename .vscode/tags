@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	../svm.py	/^C = 1.0  # SVM regularization parameter$/;"	kind:variable	line:52
+DecisionTreeClassifier	../random_trees.py	/^from sklearn.tree import DecisionTreeClassifier$/;"	kind:namespace	line:5
+ExtraTreesClassifier	../random_trees.py	/^from sklearn.ensemble import ExtraTreesClassifier$/;"	kind:namespace	line:4
+RandomForestClassifier	../random_trees.py	/^from sklearn.ensemble import RandomForestClassifier$/;"	kind:namespace	line:3
+X	../svm.py	/^X = iris.data[:, :2]$/;"	kind:variable	line:46
+clf	../random_trees.py	/^clf = DecisionTreeClassifier(max_depth=None, min_samples_split=2,$/;"	kind:variable	line:10
+clf	../random_trees.py	/^clf = ExtraTreesClassifier(n_estimators=10, max_depth=None,$/;"	kind:variable	line:22
+clf	../random_trees.py	/^clf = RandomForestClassifier(n_estimators=10, max_depth=None,$/;"	kind:variable	line:16
+cross_val_score	../random_trees.py	/^from sklearn.model_selection import cross_val_score$/;"	kind:namespace	line:1
+datasets	../svm.py	/^from sklearn import svm, datasets$/;"	kind:namespace	line:5
+edgecolors	../svm.py	/^                    edgecolors='k')$/;"	kind:variable	line:76
+iris	../svm.py	/^iris = datasets.load_iris()$/;"	kind:variable	line:43
+make_blobs	../random_trees.py	/^from sklearn.datasets import make_blobs$/;"	kind:namespace	line:2
+make_meshgrid	../svm.py	/^def make_meshgrid(x, y, h=.02):$/;"	kind:function	line:7
+matplotlib	../svm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+models	../svm.py	/^models = (  svm.SVC(kernel='linear', C=C),$/;"	kind:variable	line:53
+models	../svm.py	/^models = (clf.fit(X, y) for clf in models)$/;"	kind:variable	line:57
+np	../svm.py	/^import numpy as np$/;"	kind:namespace	line:3
+plot_contours	../svm.py	/^def plot_contours(ax, clf, xx, yy, **params):$/;"	kind:function	line:26
+plt	../svm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+random_state	../random_trees.py	/^    random_state=0)$/;"	kind:variable	line:11
+random_state	../random_trees.py	/^    random_state=0)$/;"	kind:variable	line:8
+random_trees.py	../random_trees.py	1;"	kind:file	line:1
+scores	../random_trees.py	/^scores = cross_val_score(clf, X, y)$/;"	kind:variable	line:12
+scores	../random_trees.py	/^scores = cross_val_score(clf, X, y)$/;"	kind:variable	line:18
+scores	../random_trees.py	/^scores = cross_val_score(clf, X, y)$/;"	kind:variable	line:24
+svm	../svm.py	/^from sklearn import svm, datasets$/;"	kind:namespace	line:5
+svm.py	../svm.py	1;"	kind:file	line:1
+titles	../svm.py	/^titles = (  'SVC with linear kernel',$/;"	kind:variable	line:60
+y	../svm.py	/^y = iris.target$/;"	kind:variable	line:47
